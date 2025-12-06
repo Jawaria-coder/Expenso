@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download Expenso App</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f8f9fa;
+        text-align: center;
+        padding: 50px 20px;
+        margin: 0;
+    }
+
+    h1 {
+        color: #634f8d;
+    }
+
+    .tagline {
+        font-size: 20px;
+        color: #634f8d;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    p {
+        color: #555;
+        font-size: 18px;
+    }
+
+    .download-button {
+        display: inline-block;
+        margin: 20px;
+        padding: 15px 30px;
+        font-size: 20px;
+        color: white;
+        background-color: #A279C5;
+        border-radius: 10px;
+        text-decoration: none;
+        transition: background 0.3s, transform 0.3s;
+    }
+
+    .download-button:hover {
+        background-color: #634f8d;
+        transform: scale(1.05);
+    }
+
+    img {
+        width: 400px;
+        max-width: 100%; 
+        height: auto;
+        display: block;
+        margin: 0 auto; 
+        animation: float 3s ease-in-out infinite;
+        margin-bottom: -20px;
+    }
+
+    .version-info {
+        margin-top: 40px;
+        font-size: 14px;
+        color: #888;
+    }
+
+    @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-20px); }
+        100% { transform: translateY(0px); }
+    }
+
+    @media (max-width: 496px) {
+        body {
+            padding: 30px 10px;
+        }
+        .tagline {
+            font-size: 18px;
+        }
+        .download-button {
+            font-size: 18px;
+            padding: 12px 25px;
+        }
+    }
+</style>
+</head>
+<body>
+    <img src="wallet.png" alt="Expenso Logo">
+    <h1>Download Expenso App</h1>
+    <p class="tagline">Manage Your Expenses Effortlessly & Take Control of Your Money!</p>
+    <p>Click the button below to download the latest version of Expenso for Android.</p>
+    <a class="download-button" href="https://github.com/Jawaria-coder/Expenso/releases/download/v1.0/Expenso.apk" target="_blank">Download APK</a>
+    <p class="version-info">Version 1.0 | Works on Android 5.0+</p>
+</body>
+</html>
