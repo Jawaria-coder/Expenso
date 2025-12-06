@@ -1,0 +1,59 @@
+name: project
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  firebase_core: ^3.13.1
+  firebase_auth: ^5.5.4
+  get: ^4.7.2
+  google_sign_in: ^6.3.0
+  shared_preferences: ^2.2.2
+  intl: ^0.20.2
+  cloud_firestore: ^5.0.1
+  flutter_animate: ^4.5.0
+  share_plus: ^11.0.0
+  url_launcher: ^6.2.5
+  provider: ^6.0.0
+  math_expressions: ^2.2.0
+  fl_chart: ^0.64.0
+  pdf: ^3.10.4
+  printing: ^5.12.0
+  firebase_messaging: ^15.2.6
+  flutter_local_notifications: ^19.2.1
+  flutter_timezone: ^4.1.1
+  http: ^1.4.0
+  firebase_analytics: ^11.4.6
+  timezone: ^0.10.1
+  permission_handler: ^12.0.0+1
+  device_info_plus: ^11.4.0
+  local_auth: ^2.3.0
+  speech_to_text: ^7.0.0
+  google_mobile_ads: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon-512.png"
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/wallet.png
+    - assets/icon-512.png
